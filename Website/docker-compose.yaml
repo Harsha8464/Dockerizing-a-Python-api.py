@@ -2,9 +2,9 @@ version: "3"
 
 services:
   fruit-service:
-    build: ./product
+    build: ./DockerProject
     volumes:
-      - ./product:/usr/src/app
+      - ./DockerProject:/usr/src/app
     ports:
       - 5001:80
 
